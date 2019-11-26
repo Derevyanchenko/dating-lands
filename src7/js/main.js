@@ -29,5 +29,12 @@ $(document).ready(function() {
       showNextStep(that);
   });
 
+  $(".target").on("click", function(that) {
+    that.preventDefault();
+    that = $(this);
+
+      showNextStep(that);
+  });
+
 
 });
